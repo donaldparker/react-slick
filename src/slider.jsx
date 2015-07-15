@@ -10,6 +10,7 @@ import defaultProps from './default-props';
 var Slider = React.createClass({
   mixins: [ResponsiveMixin],
   getInitialState: function () {
+    alert('slider get initial state')
     return {
       breakpoint: null
     };
